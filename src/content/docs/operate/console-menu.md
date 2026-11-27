@@ -7,6 +7,8 @@ sidebar:
 
 Each server shows the **vBase node console** on its screen: its address, its role, what it's using, and whether each service is running (vorc8r, nginx, postgresql, the vnode agent, libvirt, ovs).
 
+![The node console: the server's address, role and uptime, its CPU, memory and VM storage, the six services all OK, and the F2, F3, F4, F11 and F12 keys along the bottom.](../../../assets/screens/console-home.png)
+
 | Key | Opens |
 |---|---|
 | **F2** | **Configure:** management network, storage (pool, Ceph, swap), date and time, restart management services, reset web admin password, join a control plane, reset the `vbase` password |
