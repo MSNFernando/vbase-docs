@@ -31,3 +31,6 @@
 	--sl-color-gray-7: #fbfcf9;
 	--sl-color-black: #ffffff;
 }
+
+/* The ONECOMET mark in the header: round, a little larger than the default */
+.site-title img { height: 2.25rem; width: 2.25rem; border-radius: 50%; }

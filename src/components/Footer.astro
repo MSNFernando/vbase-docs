@@ -1,0 +1,28 @@
+---
+// Starlight's footer (edit link, last updated, previous/next), then ONECOMET's line
+import Default from '@astrojs/starlight/components/Footer.astro';
+const year = new Date().getFullYear();
+---
+
+<Default><slot /></Default>
+<p class="onecomet">
+	<span>vBase by <a href="https://onecomet.co.nz">ONECOMET</a></span>
+	<span>© {year} ONECOMET</span>
+	<span>Docs licensed <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></span>
+	<a href="https://github.com/MSNFernando/vbase-releases/releases">Releases</a>
+</p>
+
+<style>
+	.onecomet {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0.25rem 1.25rem;
+		margin-top: 2rem;
+		padding-top: 1rem;
+		border-top: 1px solid var(--sl-color-hairline);
+		font-size: var(--sl-text-xs);
+		color: var(--sl-color-gray-3);
+	}
+	.onecomet a { color: var(--sl-color-gray-2); }
+	.onecomet a:hover { color: var(--sl-color-accent); }
+</style>

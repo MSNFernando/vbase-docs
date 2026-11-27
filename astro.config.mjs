@@ -10,9 +10,10 @@ export default defineConfig({
 		starlight({
 			title: 'vBase docs',
 			description: 'Install, run and troubleshoot vBase, the ONECOMET private cloud platform.',
-			logo: { src: './src/assets/logo.svg', replacesTitle: false },
-			favicon: '/favicon.svg',
+			logo: { src: './src/assets/onecomet-logo.png', alt: 'ONECOMET', replacesTitle: false },
+			favicon: '/favicon.png',
 			customCss: ['./src/styles/theme.css'],
+			components: { Footer: './src/components/Footer.astro' },
 			social: [{ icon: 'github', label: 'vBase releases', href: 'https://github.com/MSNFernando/vbase-releases' }],
 			editLink: { baseUrl: 'https://github.com/MSNFernando/vbase-docs/edit/main/' },
 			lastUpdated: true,
