@@ -1,0 +1,31 @@
+---
+title: vBase docs
+description: Install, run and troubleshoot vBase, the ONECOMET private cloud platform.
+template: splash
+hero:
+  tagline: A private cloud on your own servers. VMs, private networks with firewalls, storage and managed PostgreSQL, run from a USB stick.
+  actions:
+    - text: Install vBase
+      link: /start/requirements/
+      icon: right-arrow
+    - text: What is vBase?
+      link: /start/what-is-vbase/
+      variant: minimal
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+<CardGrid>
+  <Card title="Get started" icon="rocket">
+    [Check the hardware](/start/requirements/), [write the USB stick](/start/write-the-stick/), and [set up the first server](/start/first-boot/).
+  </Card>
+  <Card title="Plan your network" icon="puzzle">
+    Management network, the router's uplink and public addresses: [plan them before you install](/network/plan/).
+  </Card>
+  <Card title="Use vBase" icon="laptop">
+    [VPCs and subnets](/use/vpcs-and-subnets/), [firewalls](/use/firewalls/), [databases and backups](/use/databases/), [API tokens](/use/api-tokens/).
+  </Card>
+  <Card title="Something wrong?" icon="warning">
+    Start with [Troubleshooting](/troubleshooting/cant-reach-the-console/): the common problems and how to fix them.
+  </Card>
+</CardGrid>

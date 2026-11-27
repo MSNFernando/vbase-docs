@@ -1,0 +1,33 @@
+/* vBase: the Unicron Group colours and type, as in the vStrata console */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
+
+:root {
+	--sl-font: Manrope, system-ui, -apple-system, 'Segoe UI', sans-serif;
+	--sl-font-mono: 'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace;
+	/* dark (Starlight's default) */
+	--sl-color-accent-low: #24361c;
+	--sl-color-accent: #84cc16;
+	--sl-color-accent-high: #bef264;
+	--sl-color-white: #e8ede4;
+	--sl-color-gray-1: #cdd6c9;
+	--sl-color-gray-2: #a8b5a6;
+	--sl-color-gray-3: #7d8a7f;
+	--sl-color-gray-4: #3d4d40;
+	--sl-color-gray-5: #2c3a2f;
+	--sl-color-gray-6: #17221a;
+	--sl-color-black: #0f1611;
+}
+:root[data-theme='light'] {
+	--sl-color-accent-low: #ecf6dc;
+	--sl-color-accent: #3f6212;
+	--sl-color-accent-high: #2d4a0c;
+	--sl-color-white: #17221a;
+	--sl-color-gray-1: #3d4740;
+	--sl-color-gray-2: #5c665e;
+	--sl-color-gray-3: #8a958c;
+	--sl-color-gray-4: #d5dbd0;
+	--sl-color-gray-5: #e3e6df;
+	--sl-color-gray-6: #f7f8f4;
+	--sl-color-gray-7: #fbfcf9;
+	--sl-color-black: #ffffff;
+}
